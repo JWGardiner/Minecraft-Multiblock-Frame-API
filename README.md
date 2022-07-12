@@ -13,6 +13,8 @@ The frame/controller make up the frame, you can use controllers as frames but yo
 
 The fill block is what fills it. You have 2 config options for this; you can set it to either fill it and replace all blocks, or only fill when there's **no blocks** (Not including air, of course).
 
+As the controller is a blockEntity, lots of frames made of the controller may lag more than creating a frame.
+
 ## Documentation
 Once the API is complete, the documentation will be on the wiki tab, as well as an example.
 
